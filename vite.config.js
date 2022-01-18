@@ -7,6 +7,7 @@ export default defineConfig({
     lib: {
       entry: './src/main.ts',
       name: 'MyLibrary',
+      fileName: (format) => `svelte-web-components-example.${format}.js`,
     },
   },
   plugins: [

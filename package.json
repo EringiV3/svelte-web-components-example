@@ -2,6 +2,12 @@
   "name": "svelte-web-components-example",
   "version": "0.0.0",
   "type": "module",
+  "main": "dist/svelte-web-components-example.umd.js",
+  "module": "dist/svelte-web-components-example.es.js",
+  "unpkg": "dist/svelte-web-components-example.umd.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vite build",
